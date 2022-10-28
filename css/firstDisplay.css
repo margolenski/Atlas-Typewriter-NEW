@@ -1,0 +1,106 @@
+.headerRow{
+    width: 100%;
+    height: 114.5px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+}
+
+.headerRow .link{
+    height: 100%;
+    padding: 0 90px;
+    border-left: 1px solid #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.headerRow .link:last-of-type{
+    border-right: 1px solid #fff;
+}
+
+.promoPhrase{
+    width: 100%;
+    height: calc(100% - 114.5px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    z-index: 100;
+}
+
+#firstDisplay .sqrOne{
+    width: 269px;
+    height: 441px;
+    background-color: #F05828;
+    position: absolute;
+    z-index: 20;
+    left: 0;
+    top: 0;
+}
+
+#firstDisplay .sqrTwo{
+    width: 273px;
+    height: 85px;
+    background-color: #F05828;
+    position: absolute;
+    z-index: 20;
+    right: 273px;
+    bottom: 684px;
+}
+
+#firstDisplay .sqrThree{
+    width: 273px;
+    height: 684px;
+    background-color: #F05828;
+    position: absolute;
+    z-index: 20;
+    right: 0px;
+    bottom: 0px;
+}
+
+#firstDisplay .sqrFour{
+    width: 248px;
+    height: 248px;
+    background-color: #F05828;
+    position: absolute;
+    z-index: 20;
+    left: 720px;
+    bottom: 243px;
+}
+
+#firstDisplay .sqrFive{
+    width: 720px;
+    height: 243px;
+    background-color: #F05828;
+    position: absolute;
+    z-index: 20;
+    left: 0;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#firstDisplay .h3{
+    margin-top: 18px;
+}
+
+#firstDisplay #one{
+    position: absolute;
+    bottom: 243px;
+    right: 429px;
+}
+
+#firstDisplay #two{
+    position: absolute;
+    bottom: 78px;
+    right: 429px;
+}
+
+#firstDisplay #three{
+    position: absolute;
+    bottom: 78px;
+    right: 599px;
+}

@@ -1,0 +1,169 @@
+@font-face {
+    font-family: 'Atlas Typewriter Trial';
+    src: url('./assets/fonts/Atlas_Typewriter_Family/AtlasTypewriter-Thin-Trial.otf');
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'Atlas Typewriter Trial';
+    src: url('./assets/fonts/Atlas_Typewriter_Family/AtlasTypewriter-ThinItalic-Trial.otf');
+    font-weight: 450;
+}
+
+@font-face {
+    font-family: 'Atlas Typewriter Trial';
+    src: url('./assets/fonts/Atlas_Typewriter_Family/AtlasTypewriter-LightItalic-Trial.otf');
+    font-weight: 350;
+}
+
+@font-face {
+    font-family: 'Atlas Typewriter Trial';
+    src: url('./assets/fonts/Atlas_Typewriter_Family/AtlasTypewriter-Light-Trial.otf');
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: 'Atlas Typewriter Trial';
+    src: url('./assets/fonts/Atlas_Typewriter_Family/AtlasTypewriter-Regular-Trial.otf');
+    font-weight: 200;
+}
+
+@font-face {
+    font-family: 'Atlas Typewriter Trial';
+    src: url('./assets/fonts/Atlas_Typewriter_Family/AtlasTypewriter-RegularItalic-Trial.otf');
+    font-weight: 250;
+}
+
+@font-face {
+    font-family: 'Atlas Typewriter Trial';
+    src: url('./assets/fonts/Atlas_Typewriter_Family/AtlasTypewriter-Medium-Trial.otf');
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: 'Atlas Typewriter Trial';
+    src: url('./assets/fonts/Atlas_Typewriter_Family/AtlasTypewriter-MediumItalic-Trial.otf');
+    font-weight: 550;
+}
+
+@font-face {
+    font-family: 'Atlas Typewriter Trial';
+    src: url('./assets/fonts/Atlas_Typewriter_Family/AtlasTypewriter-Bold-Trial.otf');
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: 'Atlas Typewriter Trial';
+    src: url('./assets/fonts/Atlas_Typewriter_Family/AtlasTypewriter-BoldItalic-Trial.otf');
+    font-weight: 750;
+}
+
+@font-face {
+    font-family: 'Atlas Typewriter Trial';
+    src: url('./assets/fonts/Atlas_Typewriter_Family/AtlasTypewriter-Black-Trial.otf');
+    font-weight: 900;
+}
+
+@font-face {
+    font-family: 'Atlas Typewriter Trial';
+    src: url('./assets/fonts/Atlas_Typewriter_Family/AtlasTypewriter-BlackItalic-Trial.otf');
+    font-weight: 950;
+}
+
+body {
+    font-family: "Atlas Typewriter Trial";
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    color: #fff;
+    position: relative;
+}
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    vertical-align: baseline;
+    outline: none;
+}
+html {
+    height: 100%;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+.display{
+    position: relative;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    background-color: #262626;
+    transition: all ease 0.4s;
+}
+
+.h1{
+    font-size: 83px;
+    line-height: 100px;
+}
+
+.h3{
+    font-size: 36px;
+    line-height: 43px;
+}
+
+.textFish{
+    font-size: 8px;
+    line-height: 10px;
+}
+
+.light{
+    font-weight: 300;
+}
+
+.large{
+    font-size: 36px;
+    line-height: 43px;
+}
+
+.small{
+    font-size: 8px;
+    line-height: 10px;
+}
+
+.italic{
+    font-weight: 450;
+}
+
+.aRight{
+    text-align: right;
+}

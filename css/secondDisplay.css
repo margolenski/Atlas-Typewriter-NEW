@@ -1,0 +1,354 @@
+
+
+#secondDisplay .sqrOne{
+    position: absolute;
+    width: 609px;
+    height: 468px;
+    left: 0;
+    top: 157px;
+    background-color: #F05828;
+    z-index: 20;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#secondDisplay .sqrOne .innerBlock{
+    width: calc(100% - 104px);
+    height: calc(100% - 60px);
+}
+
+#secondDisplay .sqrOne .innerBlock div{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-bottom: 30px;
+}
+
+#secondDisplay .sqrOne .innerBlock div:last-of-type{
+    margin-bottom: 0;
+}
+
+#secondDisplay .sqrOne .innerBlock div .title{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 182px;
+}
+
+#secondDisplay .sqrOne .innerBlock div .fullName{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: calc(100% - 182px);
+}
+
+.thinExm .title{
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 43px;
+}
+
+.thinExm .fullName{
+    font-weight: 450;
+    font-size: 36px;
+    line-height: 43px;
+}
+
+.lightExm .title{
+    font-weight: 300;
+    font-size: 36px;
+    line-height: 43px;
+}
+
+.lightExm .fullName{
+    font-weight: 350;
+    font-size: 36px;
+    line-height: 43px;
+}
+
+.regularExm .title{
+    font-weight: 200;
+    font-size: 36px;
+    line-height: 43px;
+}
+
+.regularExm .fullName{
+    font-weight: 250;
+    font-size: 36px;
+    line-height: 43px;
+}
+
+.mediumExm .title{
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 43px;
+}
+
+.mediumExm .fullName{
+    font-weight: 550;
+    font-size: 36px;
+    line-height: 43px;
+}
+
+.boldExm .title{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 43px;
+}
+
+.boldExm .fullName{
+    font-weight: 750;
+    font-size: 36px;
+    line-height: 43px;
+}
+
+.blackExm .title{
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 43px;
+}
+
+.blackExm .fullName{
+    font-weight: 950;
+    font-size: 36px;
+    line-height: 43px;
+}
+
+#secondDisplay .sqrTwo{
+    position: absolute;
+    width: 339px;
+    height: 164px;
+    left: 609px;
+    top: 625px;
+    background-color: #F05828;
+    z-index: 20;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#secondDisplay .sqrThree{
+    position: absolute;
+    width: 470px;
+    height:344px;
+    right: 102px;
+    top: 87px;
+    background-color: #F05828;
+    z-index: 20;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#secondDisplay .sqrThree .innerBlock{
+    width: calc(100% - 98px);
+    height: calc(100% - 20px);
+}
+
+#secondDisplay .sqrThree .innerBlock .left{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+#secondDisplay .sqrThree .innerBlock .right{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+#secondDisplay .sqrThree .innerBlock span{
+    font-size: 36px;
+    line-height: 43px;
+}
+
+#secondDisplay .sqrThree .innerBlock div{
+    margin-bottom: 6px;
+}
+
+#secondDisplay .sqrThree .innerBlock div:last-of-type{
+    margin-bottom: 0;
+}
+
+#underOne{
+    position: absolute;
+    top: 114px;
+    left: 55px;
+}
+
+#underTwo{
+    position: absolute;
+    top: 789px;
+    left: 609px;
+}
+
+#underThree{
+    position: absolute;
+    top: 58px;
+    right: 433px;
+}
+
+#underFour{
+    position: absolute;
+    top: 431px;
+    right: 102px;
+}
+
+.borderLeft{
+    width: 341px;
+    height: 408px;
+    position: absolute;
+    left: 143px;
+    bottom: 0;
+    border-left: 0.5px solid #fff;
+    border-right: 0.5px solid #fff;
+}
+
+.borderRight{
+    width: 433px;
+    height: 1190px;
+    position: absolute;
+    right: 102px;
+    bottom: 0;
+    border-right: 0.5px solid #fff;
+    display: flex;
+    align-items: flex-end;
+}
+
+.borderRight .innerBorder{
+    width: 100%;
+    height: 759px;
+    border-left: 0.5px solid #fff;
+}
+
+.bottomBorder{
+    width: 485px;
+    height: 55.5px;
+    position: absolute;
+    left: 0px;
+    bottom: 0;
+    border-top: 0.5px solid #fff;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.bottomBorder .right{
+    height: 100%;
+    width: 121px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-left: 0.5px solid #fff;
+}
+
+.bottomBorder .right span{
+    font-weight: 450;
+    font-size: 8px;
+    line-height: 10px;
+    margin-bottom: 5px;
+}
+
+#secondDisplay #one{
+    position: absolute;
+    left: 208px;
+    top: 61px;
+}
+
+#secondDisplay #two{
+    position: absolute;
+    left: 434px;
+    top: 143px;
+}
+
+#secondDisplay #three{
+    position: absolute;
+    left: 143px;
+    bottom: 292px;
+}
+
+#secondDisplay #four{
+    position: absolute;
+    left: 143px;
+    bottom: 206px;
+}
+
+#secondDisplay #five{
+    position: absolute;
+    left: 143px;
+    bottom: 91px;
+}
+
+#secondDisplay #six{
+    position: absolute;
+    left: 484px;
+    bottom: 81px;
+}
+
+#secondDisplay #seven{
+    position: absolute;
+    right: 107px;
+    bottom: 303px;
+}
+
+#secondDisplay #eight{
+    position: absolute;
+    right: 107px;
+    bottom: 237px;
+}
+
+#secondDisplay #nine{
+    position: absolute;
+    right: 107px;
+    bottom: 164px;
+}
+
+#secondDisplay #ten{
+    position: absolute;
+    right: 141px;
+    bottom: 30px;
+}
+
+#secondDisplay #sOne{
+    position: absolute;
+    right: 599px;
+    top: 61px;
+}
+
+#secondDisplay #sTwo{
+    position: absolute;
+    right: 599px;
+    top: 222px;
+}
+
+#secondDisplay #sThree{
+    position: absolute;
+    right: 599px;
+    top: 383px;
+}
+
+#secondDisplay #sFour{
+    position: absolute;
+    right: 599px;
+    top: 544px;
+}
+
+#secondDisplay #sFive{
+    position: absolute;
+    right: 429px;
+    top: 544px;
+}
+
+#secondDisplay #sSix{
+    position: absolute;
+    right: 271px;
+    top: 544px;
+}
+
+#secondDisplay #sSeven{
+    position: absolute;
+    right: 128px;
+    top: 544px;
+}
